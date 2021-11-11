@@ -300,3 +300,7 @@ footer p{
     right: 15px;
     box-shadow: 0 0 20px 5px rgb(55, 98, 96);
 }
+
+.frase {
+    text-align: center;
+}
