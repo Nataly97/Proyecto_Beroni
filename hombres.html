@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beroni</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+        body{
+            background-image: url(https://www.androidsis.com/wp-content/uploads/2019/06/Fondos-pantalla-oscuros-2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+            background-attachment: fixed;
+
+        }
+        .titulo{
+            width: 100%;
+            height: 150px;
+            text-align: center;
+            position: relative;
+        }
+        .titulo h1{
+            font-size: 80px;
+            margin: 40px;
+            letter-spacing: 20px;
+
+        }
+        .titulo .boton{
+            position: absolute;
+            left: 10px;
+        }
+        .titulo .boton button{
+            width: 60px;
+            height: 20px;
+            color: black;
+            cursor: pointer;
+        }
+        .container{
+            width: 90%;
+            height: auto;
+            margin: auto;
+            margin-bottom: 20px;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+        
+        .container .grid{
+            
+            display: grid;
+            
+            gap: 20px;
+           
+            
+        }
+        
+
+        
+        
+        .image1{
+            grid-column: 1/ span 2;
+            grid-row: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+        }
+        
+        
+        .image3{
+            grid-column: 4;
+            grid-row: 1 / span 3;
+            
+        }
+        .image5{
+            grid-column:2 / span 2 ;
+            grid-row: 2;
+        }
+        
+
+        .image12{
+            grid-column: 3 / span 2;
+            grid-row: 5;
+        }
+        .image13{
+            grid-column: 1 / span 2;
+            grid-row: 5;
+        }
+
+        
+        .grid1 > img{
+            border-radius: 10px;
+            
+        }
+        .grid1f img{
+            box-shadow: -5px -5px 30px rgba(255, 255, 255, 0.411);
+        }
+        
+
+
+
+    </style>
+    <div class="titulo">
+        <div class="boton">
+            <button onclick="location.href='index.html'; ">Atras</button>
+        </div>
+        <h1>Articulos para Caballeros</h1>
+    </div>
+    <div class="container">
+        
+        <div class="grid">
+            <div class="grid1f image1">
+                <div class="hover">
+                    <img src="imagenes/Empresa/logo.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="grid1 image2">
+                <img src="imagenes/Catálogo/Caballistas/10.jpg" alt="" width="300px" height="200px">
+            </div>
+            <div class="grid1 image3">
+                
+                <img src="imagenes/Catálogo/Caballistas/correaVerde.jpg" alt=""  width="300px" height="800px">
+            </div>
+            <div class="grid1 image4">
+                <img src="imagenes/Catálogo/Caballistas/15.jpg" alt=""  width="300px" height="200px">
+            </div>
+            <div class="grid1 image5">
+                <img src="imagenes/Catálogo/Caballistas/17.jpg" alt=""  width="600px" height="200px">
+            </div>
+            <div class="grid1 image6">
+                <img src="imagenes/Catálogo/Caballistas/9.jpg" alt=""  width="300px" height="200px">
+            </div>
+            <div class="grid1 image7">
+                <img src="imagenes/Catálogo/Caballistas/11.jpg" alt=""  width="300px" height="200px">
+            </div>
+            <div class="grid1 image8">
+                <img src="imagenes/Catálogo/Caballistas/WhatsApp Image 2021-05-31 at 17.22.18 (31).jpeg" alt=""  width="300px" height="200px">
+            </div>
+            <div class="grid1 image9">
+                <img src="imagenes/Catálogo/Caballistas/12.jpg" alt=""  width="300px" height="200px">
+            </div>
+            <div class="grid1 image10">
+                <img src="imagenes/Catálogo/Caballistas/WhatsApp Image 2021-05-28 at 12.57.51.jpeg" alt=""  width="300px" height="200px">
+            </div>
+            <div class="grid1 image11">
+                <img src="imagenes/Catálogo/Caballistas/WhatsApp Image 2021-05-31 at 17.22.18 (22).jpeg" alt=""  width="300px" height="200px">
+            </div>
+            <div class="grid1 image12">
+                <img src="imagenes/Catálogo/Caballistas/tresCorreas.jpg" alt=""  width="500px" height="200px">
+            </div>
+            <div class="grid1 image13">
+                <img src="imagenes/Catálogo/Caballistas/WhatsApp Image 2021-05-28 at 12.58.06.jpeg" alt=""  width="400px" height="200px">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
